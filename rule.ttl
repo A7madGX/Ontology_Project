@@ -1,0 +1,36 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix : <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/> .
+@prefix ns: <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#> .
+
+
+# Define ActorDirector as an intersection of Actor and Director
+ns:ActorDirector a owl:Class ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf ( :Actor :Director )
+    ] .
+
+# Define ActorWriter as an intersection of Actor and Writer
+ns:ActorWriter a owl:Class ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf ( :Actor :Writer )
+    ] .
+
+# Define WriterDirector as an intersection of Actor and Writer
+ns:WriterDirector a owl:Class ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf ( :Director :Writer )
+    ] .
+
+# Define ActorWriterDirector as an intersection of Actor and Writer and Director
+ns:ActorWriterDirector a owl:Class ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf ( :Actor :Director :Writer )
+    ] .
+
+

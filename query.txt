@@ -1,0 +1,14 @@
+SELECT ?person
+WHERE {
+    {
+        ?person rdf:type base:Actor .
+    }
+    UNION
+    {
+        ?person rdf:type base:Director .
+    }
+    UNION
+    {
+        ?person rdf:type base:Writer .
+    }
+}

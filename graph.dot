@@ -1,0 +1,333 @@
+digraph { 
+ node [ fontname="DejaVu Sans" ] ; 
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node2 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node5 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node7 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node9 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node11 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node13 -> node14 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node16 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node18 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node20 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node22 -> node23 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node0 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node14 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node24 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node25 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node26 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node27 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node29 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:onProperty</font> > ] ;
+	node30 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node24 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node19 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> > ] ;
+	node32 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node33 -> node34 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node35 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node36 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node37 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node15 -> node35 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node27 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node39 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node39 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node12 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node13 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node30 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node20 -> node40 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:equivalentClass</font> > ] ;
+	node0 -> node41 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node4 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node42 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node9 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node44 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node45 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node15 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node46 -> node47 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node38 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node11 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node16 -> node48 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node37 -> node23 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node13 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node14 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node50 -> node41 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node49 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node13 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node36 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node5 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node51 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node29 -> node52 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:onClass</font> > ] ;
+	node5 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node10 -> node41 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node53 -> node34 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node11 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node38 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> > ] ;
+	node54 -> node41 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node31 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node33 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node14 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node9 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node55 -> node34 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node7 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node9 -> node12 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node20 -> node56 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:equivalentClass</font> > ] ;
+	node13 -> node18 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node35 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node30 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node4 -> node50 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node49 -> node18 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node35 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node30 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node46 -> node34 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node42 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:onClass</font> > ] ;
+	node44 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node32 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node45 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node9 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node56 -> node37 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:onProperty</font> > ] ;
+	node53 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node26 -> node25 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node57 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node44 -> node50 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node36 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node33 -> node48 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node55 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node26 -> node14 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node52 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node9 -> node50 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node58 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node6 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node58 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node8 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node49 -> node11 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node19 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node33 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node41 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node45 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node55 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node26 -> node50 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node49 -> node59 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node22 -> node52 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node60 -> node52 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node2 -> node34 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node36 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node58 -> node50 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node26 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node58 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node12 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node61 -> node62 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node26 -> node14 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node8 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> > ] ;
+	node58 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node24 -> node34 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node30 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node20 -> node42 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:equivalentClass</font> > ] ;
+	node7 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node30 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node37 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node13 -> node59 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node4 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node45 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node44 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node11 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node56 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node45 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node22 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node15 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node14 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node53 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node29 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node42 -> node57 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:onProperty</font> > ] ;
+	node39 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node13 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node49 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node50 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node55 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node57 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node49 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node2 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node44 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node26 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node22 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node10 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node40 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:onProperty</font> > ] ;
+	node7 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node18 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node54 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node35 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node25 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node2 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node56 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:onClass</font> > ] ;
+	node39 -> node23 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node46 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node13 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node15 -> node54 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node15 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node40 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:onClass</font> > ] ;
+	node36 -> node54 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node51 -> node41 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node22 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node32 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node31 -> node29 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:equivalentClass</font> > ] ;
+	node27 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node12 -> node60 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGender</font> > ] ;
+	node49 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node44 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node5 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node30 -> node51 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node27 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node16 -> node34 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node57 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node45 -> node51 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node45 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasWriter</font> > ] ;
+	node36 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node44 -> node14 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node26 -> node59 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node18 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node59 -> node41 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node16 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node35 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node25 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node4 -> node11 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node40 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node15 -> node50 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasGenre</font> > ] ;
+	node58 -> node35 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasDirector</font> > ] ;
+	node37 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node9 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node15 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node57 -> node23 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node36 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns1:hasActor</font> > ] ;
+	node6 -> node52 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node59 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node60 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node7 -> node38 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node58 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre node0
+node0 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasGenre</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre</font></td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#ObjectProperty node1
+node1 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ObjectProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#ObjectProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#ObjectProperty</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName node2
+node2 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasName</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName</font></td></tr></table> > ] 
+# http://www.w3.org/2001/XMLSchema#string node3
+node3 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>string</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#string' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#string</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Avengers node4
+node4 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Avengers</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Avengers' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Avengers</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;USA&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;en&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;Avengers&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;2015&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Spike_Lee node5
+node5 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Spike_Lee</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Spike_Lee' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Spike_Lee</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;66&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;Spike Lee&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;Korean&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Male node6
+node6 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Male</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Male' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Male</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan node7
+node7 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>M._Night_Shyamalan</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;53&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;M. Night Shyamalan&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;Indian&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director node8
+node8 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Director</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/No_Country_for_Old_Men node9
+node9 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>No_Country_for_Old_Men</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/No_Country_for_Old_Men' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/No_Country_for_Old_Men</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;USA&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;en&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;No Country for Old Men&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;2015&quot;^^xsd:integer</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Thriller node10
+node10 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Thriller</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Thriller' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Thriller</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Robert_Rodriguez node11
+node11 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Robert_Rodriguez</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Robert_Rodriguez' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Robert_Rodriguez</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;57&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;Robert Rodriguez&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;American&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Denis_Villeneuve node12
+node12 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Denis_Villeneuve</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Denis_Villeneuve' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Denis_Villeneuve</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;54&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;Denis Villeneuve&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;Canadian&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/A_Clockwork_Orange node13
+node13 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>A_Clockwork_Orange</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/A_Clockwork_Orange' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/A_Clockwork_Orange</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;United Kingdom&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;en&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;A Clockwork Orange&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;1971&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino node14
+node14 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Quentin_Tarantino</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;60&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;Quentin Tarantino&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;American&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Scarface node15
+node15 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Scarface</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Scarface' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Scarface</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;USA&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;en&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;Scarface&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;1983&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear node16
+node16 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasYear</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear</font></td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#FunctionalProperty node17
+node17 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>FunctionalProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#FunctionalProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#FunctionalProperty</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Steven_Soderbergh node18
+node18 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Steven_Soderbergh</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Steven_Soderbergh' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Steven_Soderbergh</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;60&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;Steven Soderbergh&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;American&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer node19
+node19 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Writer</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie node20
+node20 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Movie</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie</font></td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#Class node21
+node21 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Class</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Class' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Class</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender node22
+node22 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasGender</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender</font></td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#AsymmetricProperty node23
+node23 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>AsymmetricProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#AsymmetricProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#AsymmetricProperty</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry node24
+node24 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasCountry</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Guillermo_del_Toro node25
+node25 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Guillermo_del_Toro</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Guillermo_del_Toro' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Guillermo_del_Toro</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;59&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;Guillermo del Toro&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;Mexican&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Shawshank_Redemption node26
+node26 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>The_Shawshank_Redemption</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Shawshank_Redemption' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Shawshank_Redemption</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;United Kingdom&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;en&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;The Shawshank Redemption&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;1994&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams node27
+node27 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>J.J._Adams</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;57&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;J.J. Adams&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;American&quot;</td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#NamedIndividual node28
+node28 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>NamedIndividual</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#NamedIndividual' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#NamedIndividual</font></td></tr></table> > ] 
+# n564cb8ee88604f698191a313283c1942b4 node29
+node29 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>n564cb8ee88604f698191a313283c1942b4</B></td></tr><tr><td href='n564cb8ee88604f698191a313283c1942b4' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>n564cb8ee88604f698191a313283c1942b4</font></td></tr><tr><td align='left'>owl:qualifiedCardinality</td><td align='left'>&quot;1&quot;^^xsd:nonNegativeInteger</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Sin_City node30
+node30 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Sin_City</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Sin_City' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Sin_City</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;Germany&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;de&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;Sin City&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;2005&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person node31
+node31 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Person</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Peter_Jackson node32
+node32 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Peter_Jackson</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Peter_Jackson' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Peter_Jackson</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;61&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;Peter Jackson&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;New Zealandish&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge node33
+node33 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasAge</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge</font></td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#DatatypeProperty node34
+node34 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>DatatypeProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#DatatypeProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#DatatypeProperty</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Ang_Lee node35
+node35 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ang_Lee</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Ang_Lee' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Ang_Lee</font></td></tr><tr><td align='left'>ns1:hasAge</td><td align='left'>&quot;66&quot;^^xsd:int</td></tr><tr><td align='left'>ns1:hasName</td><td align='left'>&quot;Ang Lee&quot;</td></tr><tr><td align='left'>ns1:hasNationality</td><td align='left'>&quot;Taiwanese&quot;</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Mystic_River node36
+node36 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Mystic_River</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Mystic_River' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Mystic_River</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;South Korea&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;korean&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;Mystic River&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;2003&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector node37
+node37 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasDirector</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor node38
+node38 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Actor</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor node39
+node39 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasActor</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor</font></td></tr></table> > ] 
+# n564cb8ee88604f698191a313283c1942b1 node40
+node40 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>n564cb8ee88604f698191a313283c1942b1</B></td></tr><tr><td href='n564cb8ee88604f698191a313283c1942b1' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>n564cb8ee88604f698191a313283c1942b1</font></td></tr><tr><td align='left'>owl:minQualifiedCardinality</td><td align='left'>&quot;1&quot;^^xsd:nonNegativeInteger</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre node41
+node41 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Genre</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre</font></td></tr></table> > ] 
+# n564cb8ee88604f698191a313283c1942b3 node42
+node42 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>n564cb8ee88604f698191a313283c1942b3</B></td></tr><tr><td href='n564cb8ee88604f698191a313283c1942b3' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>n564cb8ee88604f698191a313283c1942b3</font></td></tr><tr><td align='left'>owl:minQualifiedCardinality</td><td align='left'>&quot;1&quot;^^xsd:nonNegativeInteger</td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#Restriction node43
+node43 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Restriction</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Restriction' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Restriction</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Usual_Suspects node44
+node44 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>The_Usual_Suspects</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Usual_Suspects' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Usual_Suspects</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;China&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;Chinese&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;The Usual Suspects&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;1995&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Training_Day node45
+node45 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Training_Day</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Training_Day' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Training_Day</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;USA&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;en&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;Training Day&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;2001&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage node46
+node46 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasLanguage</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage</font></td></tr></table> > ] 
+# http://www.w3.org/2001/XMLSchema#language node47
+node47 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>language</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#language' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#language</font></td></tr></table> > ] 
+# http://www.w3.org/2001/XMLSchema#int node48
+node48 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>int</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#int' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#int</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/American_Gangster node49
+node49 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>American_Gangster</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/American_Gangster' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/American_Gangster</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;USA&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;en&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;American Gangster&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;2007&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Action node50
+node50 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Action</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Action' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Action</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Comedy node51
+node51 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Comedy</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Comedy' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Comedy</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender node52
+node52 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Gender</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality node53
+node53 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasNationality</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Drama node54
+node54 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Drama</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Drama' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Drama</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle node55
+node55 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasTitle</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle</font></td></tr></table> > ] 
+# n564cb8ee88604f698191a313283c1942b2 node56
+node56 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>n564cb8ee88604f698191a313283c1942b2</B></td></tr><tr><td href='n564cb8ee88604f698191a313283c1942b2' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>n564cb8ee88604f698191a313283c1942b2</font></td></tr><tr><td align='left'>owl:minQualifiedCardinality</td><td align='left'>&quot;1&quot;^^xsd:nonNegativeInteger</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter node57
+node57 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasWriter</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/L.A._Confidential node58
+node58 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>L.A._Confidential</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/L.A._Confidential' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/L.A._Confidential</font></td></tr><tr><td align='left'>ns1:hasCountry</td><td align='left'>&quot;USA&quot;</td></tr><tr><td align='left'>ns1:hasLanguage</td><td align='left'>&quot;en&quot;^^xsd:language</td></tr><tr><td align='left'>ns1:hasTitle</td><td align='left'>&quot;L.A. Confidential&quot;</td></tr><tr><td align='left'>ns1:hasYear</td><td align='left'>&quot;1997&quot;^^xsd:int</td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Crime node59
+node59 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Crime</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Crime' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Crime</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Female node60
+node60 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Female</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Female' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Female</font></td></tr></table> > ] 
+# http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2 node61
+node61 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>M1-ontology-2</B></td></tr><tr><td href='http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2</font></td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#Ontology node62
+node62 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ontology</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Ontology' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Ontology</font></td></tr></table> > ] 
+}

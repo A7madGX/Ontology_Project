@@ -1,0 +1,449 @@
+@prefix : <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#> .
+
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> rdf:type owl:ObjectProperty ,
+                                                                                      owl:AsymmetricProperty ;
+                                                                             rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                             rdfs:range <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> rdf:type owl:ObjectProperty ,
+                                                                                         owl:AsymmetricProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                rdfs:range <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> rdf:type owl:ObjectProperty ,
+                                                                                       owl:FunctionalProperty ,
+                                                                                       owl:AsymmetricProperty ;
+                                                                              rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person> ;
+                                                                              rdfs:range <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> rdf:type owl:ObjectProperty ;
+                                                                             rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                             rdfs:range <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> rdf:type owl:ObjectProperty ,
+                                                                                       owl:AsymmetricProperty ;
+                                                                              rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                              rdfs:range <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> rdf:type owl:DatatypeProperty ,
+                                                                                    owl:FunctionalProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person> ;
+                                                                           rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                rdfs:range xsd:language .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> rdf:type owl:DatatypeProperty ,
+                                                                                     owl:FunctionalProperty ;
+                                                                            rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person> ;
+                                                                            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person> ;
+                                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> rdf:type owl:DatatypeProperty ,
+                                                                                      owl:FunctionalProperty ;
+                                                                             rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> rdf:type owl:DatatypeProperty ,
+                                                                                     owl:FunctionalProperty ;
+                                                                            rdfs:domain <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                            rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> rdf:type owl:Class ;
+                                                                          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> ;
+                                                                                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onClass <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor>
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> ;
+                                                                                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onClass <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director>
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> ;
+                                                                                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onClass <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer>
+                                                                                              ] .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person> rdf:type owl:Class ;
+                                                                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> ;
+                                                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                 owl:onClass <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender>
+                                                                                               ] .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Person> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Action
+:Action rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Avengers
+:Avengers rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Ang_Lee> ,
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Robert_Rodriguez> ,
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Spike_Lee> ;
+          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Spike_Lee> ;
+          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Action ,
+                                                                                       :Thriller ;
+          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ;
+          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "USA" ;
+          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "en"^^xsd:language ;
+          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "Avengers" ;
+          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "2015"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Comedy
+:Comedy rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Crime
+:Crime rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Drama
+:Drama rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Female
+:Female rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Male
+:Male rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Gender> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2#Thriller
+:Thriller rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Genre> .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/A_Clockwork_Orange
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/A_Clockwork_Orange> rdf:type owl:NamedIndividual ,
+                                                                                                <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ,
+                                                                                                                                                                    <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Peter_Jackson> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Crime ,
+                                                                                                                                                                    :Thriller ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Steven_Soderbergh> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "United Kingdom" ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "en"^^xsd:language ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "A Clockwork Orange" ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "1971"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/American_Gangster
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/American_Gangster> rdf:type owl:NamedIndividual ,
+                                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Robert_Rodriguez> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Crime ,
+                                                                                                                                                                   :Thriller ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Steven_Soderbergh> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "USA" ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "en"^^xsd:language ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "American Gangster" ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "2007"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Ang_Lee
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Ang_Lee> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> ,
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director> ;
+                                                                            <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                            <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "66"^^xsd:int ;
+                                                                            <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "Ang Lee" ;
+                                                                            <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "Taiwanese" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Denis_Villeneuve
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Denis_Villeneuve> rdf:type owl:NamedIndividual ,
+                                                                                              <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> ;
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Female ;
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "54"^^xsd:int ;
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "Denis Villeneuve" ;
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "Canadian" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Guillermo_del_Toro
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Guillermo_del_Toro> rdf:type owl:NamedIndividual ,
+                                                                                                <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "59"^^xsd:int ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "Guillermo del Toro" ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "Mexican" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> rdf:type owl:NamedIndividual ,
+                                                                                        <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> ,
+                                                                                        <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer> ;
+                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "57"^^xsd:int ;
+                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "J.J. Adams" ;
+                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "American" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/L.A._Confidential
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/L.A._Confidential> rdf:type owl:NamedIndividual ,
+                                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Ang_Lee> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Action ,
+                                                                                                                                                                   :Thriller ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "USA" ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "en"^^xsd:language ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "L.A. Confidential" ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "1997"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> rdf:type owl:NamedIndividual ,
+                                                                                                <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> ,
+                                                                                                <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director> ,
+                                                                                                <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "53"^^xsd:int ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "M. Night Shyamalan" ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "Indian" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Mystic_River
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Mystic_River> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Spike_Lee> ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Drama ,
+                                                                                                                                                              :Thriller ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "South Korea" ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "korean"^^xsd:language ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "Mystic River" ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "2003"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/No_Country_for_Old_Men
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/No_Country_for_Old_Men> rdf:type owl:NamedIndividual ,
+                                                                                                    <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Denis_Villeneuve> ;
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Action ,
+                                                                                                                                                                        :Thriller ;
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "USA" ;
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "en"^^xsd:language ;
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "No Country for Old Men" ;
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> 2015 .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Peter_Jackson
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Peter_Jackson> rdf:type owl:NamedIndividual ,
+                                                                                           <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> ;
+                                                                                  <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                                  <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "61"^^xsd:int ;
+                                                                                  <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "Peter Jackson" ;
+                                                                                  <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "New Zealandish" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino> rdf:type owl:NamedIndividual ,
+                                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> ,
+                                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "60"^^xsd:int ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "Quentin Tarantino" ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "American" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Robert_Rodriguez
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Robert_Rodriguez> rdf:type owl:NamedIndividual ,
+                                                                                              <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> ,
+                                                                                              <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director> ;
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "57"^^xsd:int ;
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "Robert Rodriguez" ;
+                                                                                     <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "American" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Scarface
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Scarface> rdf:type owl:NamedIndividual ,
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Ang_Lee> ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Action ,
+                                                                                                                                                          :Drama ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "USA" ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "en"^^xsd:language ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "Scarface" ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "1983"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Sin_City
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Sin_City> rdf:type owl:NamedIndividual ,
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Comedy ,
+                                                                                                                                                          :Thriller ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "Germany" ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "de"^^xsd:language ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "Sin City" ;
+                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "2005"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Spike_Lee
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Spike_Lee> rdf:type owl:NamedIndividual ,
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Actor> ,
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Director> ;
+                                                                              <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                              <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "66"^^xsd:int ;
+                                                                              <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "Spike Lee" ;
+                                                                              <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "Korean" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Steven_Soderbergh
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Steven_Soderbergh> rdf:type owl:NamedIndividual ,
+                                                                                               <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Writer> ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGender> :Male ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasAge> "60"^^xsd:int ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasName> "Steven Soderbergh" ;
+                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasNationality> "American" .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Shawshank_Redemption
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Shawshank_Redemption> rdf:type owl:NamedIndividual ,
+                                                                                                      <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino> ;
+                                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino> ;
+                                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Action ,
+                                                                                                                                                                          :Crime ,
+                                                                                                                                                                          :Thriller ;
+                                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Guillermo_del_Toro> ;
+                                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "United Kingdom" ;
+                                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "en"^^xsd:language ;
+                                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "The Shawshank Redemption" ;
+                                                                                             <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "1994"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Usual_Suspects
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/The_Usual_Suspects> rdf:type owl:NamedIndividual ,
+                                                                                                <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Quentin_Tarantino> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Action ,
+                                                                                                                                                                    :Thriller ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/J.J._Adams> ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "China" ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "Chinese"^^xsd:language ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "The Usual Suspects" ;
+                                                                                       <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "1995"^^xsd:int .
+
+
+###  http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Training_Day
+<http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Training_Day> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/Movie> ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasActor> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasDirector> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasGenre> :Comedy ,
+                                                                                                                                                              :Thriller ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasWriter> <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/M._Night_Shyamalan> ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasCountry> "USA" ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasLanguage> "en"^^xsd:language ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasTitle> "Training Day" ;
+                                                                                 <http://www.semanticweb.org/team15/ontologies/2024/4/M1-ontology-2/hasYear> "2001"^^xsd:int .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
